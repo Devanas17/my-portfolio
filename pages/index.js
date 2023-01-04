@@ -3,7 +3,6 @@ import { useState } from "react";
 import Header from "../components/Header";
 import Services from "../components/Services";
 import Portfolio from "../components/Portfolio";
-import Contact from "../components/Contact";
 
 export default function Home() {
   const [darkMode, setDarkMode] = useState(false);
@@ -19,7 +18,6 @@ export default function Home() {
         <Header darkMode={darkMode} setDarkMode={setDarkMode} />
         <Services />
         <Portfolio />
-        <Contact />
       </main>
     </div>
   );
